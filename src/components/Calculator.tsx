@@ -67,7 +67,7 @@ export default function Calculator() {
           </div>
           <div style={styles.linksContainer}>
             <a 
-              href="https://app.edgex.xyz" 
+              href="https://pro.edgex.exchange/referral/TRKRIPTOCANAVAR" 
               target="_blank" 
               rel="noopener noreferrer"
               style={styles.tradeLink}
@@ -169,7 +169,7 @@ export default function Calculator() {
                   value={params.userScore}
                   onChange={(e) => updateParam('userScore', parseInt(e.target.value) || 0)}
                   style={styles.input}
-                  placeholder="Enter your score"
+                  placeholder="Enter your point"
                 />
               </div>
             </div>
@@ -218,7 +218,7 @@ const styles = {
     margin: '0 auto', 
     padding: '20px',
     minHeight: '100vh',
-    background: 'linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)', // Açık gri gradient
+    background: 'linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center'
@@ -343,7 +343,7 @@ const styles = {
     background: '#e2e8f0',
     outline: 'none', 
     margin: '15px 0',
-    WebkitAppearance: 'none'
+    appearance: 'none' as 'none' // WebkitAppearance yerine appearance
   },
   sliderRange: { 
     display: 'flex', 
