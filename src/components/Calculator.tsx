@@ -163,7 +163,7 @@ export default function Calculator() {
             {/* User Score Input */}
             <div style={styles.inputGroup}>
               <div style={styles.inputField}>
-                <label style={styles.inputLabel}>Your Score</label>
+                <label style={styles.inputLabel}>Your Point</label>
                 <input 
                   type="number" 
                   value={params.userScore}
